@@ -9,6 +9,7 @@ export default {
       colors: {
         'cr-red': '#ed3736',
         'cr-gray': '#999',
+        'cr-black': '#000000e6',
 
       },
     },
