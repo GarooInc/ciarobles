@@ -22,7 +22,7 @@ const NavBar = () => {
         <nav className="flex items-center justify-between p-4 lg:px-12" aria-label="Global">
           <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-0 text-white font-bold text-[40px] leading-[48px] " >
-          <img src="/images/logo02.png" alt="Logo" className="h-30 w-60" />
+          <img src="/images/logo02.png" alt="Logo" className="h-15 w-40" />
           </a>
           </div>
           <div className="flex lg:hidden">
