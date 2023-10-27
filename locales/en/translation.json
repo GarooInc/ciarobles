@@ -5,32 +5,10 @@
     "news": "News",
     "contact": "Contact"
   },
-  "intro": {
-    "description": "Guatemalan lawyer with experience in strategic analysis, political analysis and advisory to boards. Currently, I am the Executive President of the National Civic Movement. I participated in the 2022-2023 cohort of the Millennium Leadership Program at the Atlantic Council. On this website, I share reflections and resources to understand the sociopolitical environment in which we live."
-  },
-  "podcast": {
-    "title": "Podcast",
-    "listen": "Listen",
-    "description": "We educate about the impact that politics, social relations, and economics have on society. We motivate to exercise individual sovereignty to achieve positive impacts on society. Being increasingly aware of the potential impact of our actions."
-  },
-  "resources": {
-    "title": "Resources",
-    "categories": [
-      "All",
-      "Press",
-      "News",
-      "Articles"
-    ]
-  },
-  "analysis": {
-    "title": "Analysis"
-  },
-  "contact": {
-    "title": "Get in Touch",
-    "subtitle": "Contact",
-    "collaborate": "I want to collaborate",
-    "motto": "The republic is still alive",
-    "address": "Address",
-    "media": "Social Media"
+  "footer": {
+    "news": "Subscribe to our newsletter",
+    "policy": "Privacy Policy",
+    "email": "Add your email",
+    "subscribe": "Subscribe"
   }
 }

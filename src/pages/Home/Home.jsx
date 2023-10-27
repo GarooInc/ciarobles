@@ -1,29 +1,22 @@
 import React, { useState } from 'react'
-import NavBar from '../../components/NavBar/NavBar';
+import NavBar from '../../components/NavBar/NavBar'
+import SliderHome from '../../components/SliderHome/SliderHome'
+import GridProyects from '../../components/GridProyects/GridProyects'
+import Footer from '../../components/Footer/Footer'
+import './Home.css'
 
 const Home = () => {
 
     return (
         <div className='principalPage'>
             <NavBar/>
-            <section id='/' className="bg-je-blue w-full pt-12 md:pt-20 rounded-b-6xl flex items-center justify-center">
-                <div className="w-full max-w-screen-xl mx-4 md:mx-auto flex flex-col md:flex-row md:gap-8 rounded-6xl p-4 md:p-8">
-                    
-                </div>
+            <section id='/' className="w-full mt-0 h-screen flex items-center justify-center">
+                <SliderHome/>
             </section>
-            <section id='/podcast' className="bg-je-blue w-full pt-12 md:pt-20 rounded-6xl flex flex-col justify-start items-center">
-                
+            <section id='/workFeature' className='w-full pt-8 lg:pt-10 xl:py-20 pb-25 min-h-[calc(100vh-400px)] sm:min-h-[calc(100vh-435px)]'>
+                <GridProyects/>
             </section>
-            <section id='/recursos' className="w-full">
-                
-            </section>
-            <section id='/analisis' className="bg-je-red w-full pt-12 md:pt-20 roundedt-6xl flex flex-col justify-start items-center">
-            </section>
-            <section id='/contacto' className="bg-je-red w-full  bg-je-blue w-full pt-20 ">
-            </section>
-            <section id='footer' className="flex-shrink-0 bg-je-black h-100">
-                
-            </section>
+            <Footer/>
         </div>
         
     );

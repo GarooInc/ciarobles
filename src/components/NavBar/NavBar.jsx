@@ -10,15 +10,15 @@ const NavBar = () => {
   const { t } = useTranslation()  
 
   const navigation = [
-    { name: t('navigation.home'), href: '/' },
-    { name: t('navigation.about'), href: '/podcast' },
-    { name: t('navigation.news'), href: '/recursos' },
-    { name: t('navigation.contact'), href: '/contacto' },
+    { name: t('navigation.home').toUpperCase(), href: '/' },
+    { name: t('navigation.about').toUpperCase(), href: '/podcast' },
+    { name: t('navigation.news').toUpperCase(), href: '/recursos' },
+    { name: t('navigation.contact').toUpperCase(), href: '/contacto' },
   ]
 
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-    <header className="absolute inset-x-0 top-0 z-50 ">
+    <header className="absolute inset-x-0 top-0 z-50 bg-transparent">
         <nav className="flex items-center justify-between p-4 lg:px-12" aria-label="Global">
           <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-0 text-white font-bold text-[40px] leading-[48px] " >
@@ -36,7 +36,7 @@ const NavBar = () => {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <Link key={item.name} to={item.href} spy={true} smooth={true} duration={500} className="text-sm font-semibold leading-6 text-black cursor-pointer" >
+              <Link key={item.name} to={item.href} spy={true} smooth={true} duration={500} className="text-sm font-semibold leading-6 text-white cursor-pointer" >
                 {item.name}
               </Link>
             ))}
@@ -62,32 +62,10 @@ const NavBar = () => {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
-                    <Link key={item.name} to={item.href} spy={true} smooth={true} duration={500} onClick={() => setMobileMenuOpen(false)} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer">
+                    <Link key={item.name} to={item.href} spy={true} smooth={true} duration={500} onClick={() => setMobileMenuOpen(false)} className=" -mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 cursor-pointer">
                       {item.name}
                     </Link>
                   ))}
-                </div>
-                <div className="py-6">
-                <div className="flex gap-x-4 flex-row items-center justify-center lg:flex-1 lg:gap-x-6">
-                    <a href="https://www.instagram.com/jose_echeve/" target="_blank" rel="noreferrer" className="text-white">
-                        <BsInstagram className="h-6 w-6 text-je-black" aria-hidden="true" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/jose-echeverria-0171b65a/" target="_blank" rel="noreferrer" className="text-white">
-                        <BsLinkedin className="h-6 w-6 text-je-black" aria-hidden="true" />
-                    </a>
-                    <a href="https://twitter.com/joseecheve" target="_blank" rel="noreferrer" className="text-white">
-                        <BsTwitter className="h-6 w-6 text-je-black" aria-hidden="true" />
-                    </a>
-                    <a href="https://www.tiktok.com/@jose.echeve" target="_blank" rel="noreferrer" className="text-white">
-                        <BsTiktok className="h-6 w-6 text-je-black" aria-hidden="true" />
-                    </a>
-                    <a href="https://www.youtube.com/@CivitasPodcast" target="_blank" rel="noreferrer" className="text-white">
-                        <BsYoutube className="h-6 w-6 text-je-black" aria-hidden="true" />
-                    </a>
-                    <a href="https://open.spotify.com/show/7Mry4XjWu3FjemmeYS2TlL?si=2ebd6daf370149df" target="_blank" rel="noreferrer" className="text-white">
-                        <BsSpotify className="h-6 w-6 text-je-black" aria-hidden="true" />
-                    </a>
-                </div>
                 </div>
               </div>
             </div>
