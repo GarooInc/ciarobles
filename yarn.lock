@@ -451,6 +451,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@storeon/router@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@storeon/router/-/router-2.0.1.tgz#e4ee63c5bcff122c142b02147bac4f5052c152f3"
+  integrity sha512-iukCYLSXs2+wmIqXHrFM7LPkJBJK2lg67cu4ito62AII1OeQQKb7l2SrVk+zn8Kbaaok5QolZbDm8TFWa9CUVQ==
+
 "@types/babel__core@^7.20.2":
   version "7.20.3"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.20.3.tgz#d5625a50b6f18244425a1359a858c73d70340778"
@@ -2280,6 +2285,11 @@ source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
+
+storeon@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/storeon/-/storeon-3.1.5.tgz#b64c829d45a4746dee4aa31d646cfcb54597d70a"
+  integrity sha512-VuW4GQr3LGQr+gqscqsOz2c9asK9N+B+8+sWs7Pj4OqU7bngYIqsPF3IYpkbmccKNWjs7wwxUAlR+gtL9cEMEg==
 
 string-convert@^0.2.0:
   version "0.2.1"

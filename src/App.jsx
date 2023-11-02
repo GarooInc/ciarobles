@@ -1,12 +1,16 @@
 import "./App.css"
-import Home from "./pages/Home/Home"
+import { StoreContext } from "storeon/react"
+import store from "./store/index"
+import React from "react"
+import Page from "./pages/index"
 
 function App() {
-
   return (
-    <div className="App">
-      <Home/>
-    </div>
+    <StoreContext.Provider value={store}>
+      <div className="App">
+        <Page />
+      </div>
+    </StoreContext.Provider>
   )
 }
 
