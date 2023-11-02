@@ -36,7 +36,11 @@ const SliderHome = () => {
     return (
         <Slider {...settings} className="h-screen min-w-full">
             <div className="h-screen flex items-center justify-center">
-                <video className="object-cover w-full h-full" autoPlay loop muted>
+                <video className="object-cover w-full h-full" 
+                loop 
+                autoPlay 
+                playsInline
+                >
                     <source src="https://cdn.shopify.com/videos/c/o/v/025985fddc8e4002b103f5df9a6ad54b.mp4" type="video/mp4" />
                 </video>
             </div>
