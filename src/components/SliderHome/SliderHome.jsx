@@ -42,18 +42,30 @@ const SliderHome = () => {
                 muted
                 playsInline
                 >
-                    <source src="https://cdn.shopify.com/videos/c/o/v/025985fddc8e4002b103f5df9a6ad54b.mp4" type="video/mp4" />
+                    <source src="https://cdn.shopify.com/videos/c/o/v/f88092542afb4c339c40aae9778d2a23.mp4" type="video/mp4" />
                 </video>
             </div>
             <div className="h-screen flex items-center justify-center">
-                <img src="/images/slider01.jpg" className="object-cover w-full h-full" alt="slider01" />
+                <video className="object-cover w-full h-full" 
+                loop 
+                autoPlay 
+                muted
+                playsInline
+                >
+                    <source src="https://cdn.shopify.com/videos/c/o/v/cc1157b5df8c4676a37f1fc369ca012c.mov" type="video/mp4" />
+                </video>
             </div>
             <div className="h-screen flex items-center justify-center">
-                <img src="/images/slider02.jpg" className="object-cover w-full h-full" alt="slider02" />
+                <video className="object-cover w-full h-full" 
+                loop 
+                autoPlay 
+                muted
+                playsInline
+                >
+                    <source src="https://cdn.shopify.com/videos/c/o/v/8f8ccff10bc8419c8739f229738a92fb.mp4" type="video/mp4" />
+                </video>
             </div>
-            <div className="h-screen flex items-center justify-center">
-                <img src="/images/slider03.jpg" className="object-cover w-full h-full" alt="slider02" />
-            </div>
+            
         </Slider>
     )
 
