@@ -62,7 +62,7 @@ const SliderHome = () => {
                 muted
                 playsInline
                 >
-                    <source src="https://cdn.shopify.com/videos/c/o/v/8f8ccff10bc8419c8739f229738a92fb.mp4" type="video/mp4" />
+                    <source src="https://cdn.shopify.com/videos/c/o/v/fefb7f17c3614377b61f99f19c1326ac.mp4" type="video/mp4" />
                 </video>
             </div>
             
