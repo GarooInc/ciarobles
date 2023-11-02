@@ -12,7 +12,7 @@ const ProjectDetails = ({ id }) => {
     }
 
     return (
-        <div className="min-h-screen bg-gray-100 overflow-hidden flex flex-col">
+        <div className="min-h-screen overflow-hidden flex flex-col">
             <div className="bg-black w-full py-8">
                 <NavBar />
             </div>
