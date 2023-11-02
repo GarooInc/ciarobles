@@ -39,6 +39,7 @@ const SliderHome = () => {
                 <video className="object-cover w-full h-full" 
                 loop 
                 autoPlay 
+                muted
                 playsInline
                 >
                     <source src="https://cdn.shopify.com/videos/c/o/v/025985fddc8e4002b103f5df9a6ad54b.mp4" type="video/mp4" />
@@ -51,6 +52,7 @@ const SliderHome = () => {
                 <video className="object-cover w-full h-full" 
                 loop 
                 autoPlay 
+                muted
                 playsInline
                 >
                     <source src="https://cdn.shopify.com/videos/c/o/v/025985fddc8e4002b103f5df9a6ad54b.mp4" type="video/mp4" />
