@@ -12,7 +12,7 @@ const SliderHome = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,  // Para cambiar automáticamente las diapositivas
-        autoplaySpeed: 3000,  // El tiempo en milisegundos entre cada cambio de diapositiva
+        autoplaySpeed: 9000,  // El tiempo en milisegundos entre cada cambio de diapositiva
         responsive: [
             {
                 breakpoint: 768,
@@ -36,7 +36,17 @@ const SliderHome = () => {
     return (
         <Slider {...settings} className="h-screen min-w-full">
             <div className="h-screen flex items-center justify-center">
+                <video className="object-cover w-full h-full" autoPlay loop muted>
+                    <source src="https://cdn.shopify.com/videos/c/o/v/025985fddc8e4002b103f5df9a6ad54b.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div className="h-screen flex items-center justify-center">
                 <img src="/images/slider01.jpg" className="object-cover w-full h-full" alt="slider01" />
+            </div>
+            <div className="h-screen flex items-center justify-center">
+                <video className="object-cover w-full h-full" autoPlay loop muted>
+                    <source src="https://cdn.shopify.com/videos/c/o/v/025985fddc8e4002b103f5df9a6ad54b.mp4" type="video/mp4" />
+                </video>
             </div>
             <div className="h-screen flex items-center justify-center">
                 <img src="/images/slider02.jpg" className="object-cover w-full h-full" alt="slider02" />
